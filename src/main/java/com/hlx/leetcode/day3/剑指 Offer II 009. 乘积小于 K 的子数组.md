@@ -11,7 +11,7 @@
 设子数组的左边界下标为 i (0 <= i < nums.length), 右边界下标为 j; 开始时 i = j, 也就是该子数组只有一个元素的时候;  此时, product = nums[j]。
 
 - 当 product < k 时, 说明存在一种子数组, 使得乘积小于 k; ++result
-- 否则, 由于 nums[i] >= 1, 说明往后枚举的子数组乘积是非递减的, 因此停止这次枚举
+  - 否则, 由于 nums[i] >= 1, 说明往后枚举的子数组乘积是非递减的, 因此停止这次枚举
 
 ![image-20220224205032119](C:\Users\悠一木碧\AppData\Roaming\Typora\typora-user-images\image-20220224205032119.png)
 
@@ -44,7 +44,7 @@
 ### 复杂度分析
 
 - 时间复杂度：O(n^2), 在最差的情况下, 对于长度为 n 的数组, 接近于嵌套的 for 循环。
-- 空间复杂度：O(1)。
+  - 空间复杂度：O(1)。
 
 
 
@@ -76,15 +76,15 @@
 
    这里需要注意: res 加上了 nums[left] ~ nums[right] 区间内**新增的**所有的可能
 
-2. product *= nums[right] >= k;
+   1. product *= nums[right] >= k;
 
-   我们需要对子数组区间进行缩小, 通过 left++, 将乘积 product 缩小
+      我们需要对子数组区间进行缩小, 通过 left++, 将乘积 product 缩小
 
-   ```java
-   product /= nums[left++];
-   ```
+      ```java
+      product /= nums[left++];
+      ```
 
-   如果 left == right, 说明的单个元素都大于 k, 因此还需要 right++, 同时 product = 1;
+      如果 left == right, 说明的单个元素都大于 k, 因此还需要 right++, 同时 product = 1;
 
 
 
@@ -123,5 +123,5 @@
 ### 复杂度分析
 
 - 时间复杂度: O(n), 其中 n 为数组的长度, 只需一次遍历即可得到答案。
-- 空间复杂度: O(1)。
+  - 空间复杂度: O(1)。
 
