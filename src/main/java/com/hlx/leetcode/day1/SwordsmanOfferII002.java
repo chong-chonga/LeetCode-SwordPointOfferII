@@ -4,7 +4,7 @@ package com.hlx.leetcode.day1;
  * @author Huang Lexin
  * @date 2022年02月21日 16:12
  */
-public class BinaryAddition {
+public class SwordsmanOfferII002 {
 	static class Solution {
 
 		public String addBinary(String a, String b) {

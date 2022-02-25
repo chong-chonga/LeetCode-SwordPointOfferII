@@ -7,7 +7,7 @@ import java.util.Map;
  * @author Huang Lexin
  * @date 2022年02月22日 20:54
  */
-public class MaximumProductOfWordLengths {
+public class SwordsmanOfferII005 {
 
 	class Solution {
 		public int maxProduct(String[] words) {

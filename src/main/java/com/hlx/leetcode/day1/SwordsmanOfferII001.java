@@ -5,7 +5,7 @@ package com.hlx.leetcode.day1;
  * @author Huang Lexin
  * @date 2022年02月20日 21:08
  */
-public class IntegerDivision {
+public class SwordsmanOfferII001 {
 
 	class Solution {
 

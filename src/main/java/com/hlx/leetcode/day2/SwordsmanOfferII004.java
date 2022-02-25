@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author Huang Lexin
  * @date 2022年02月22日 10:45
  */
-public class NumbersThatOnlyAppearOnce {
+public class SwordsmanOfferII004 {
 	class Solution {
 		public int singleNumber(int[] nums) {
 			Arrays.sort(nums);

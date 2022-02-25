@@ -4,7 +4,7 @@ package com.hlx.leetcode.day1;
  * @author Huang Lexin
  * @date 2022年02月21日 16:36
  */
-public class TheNumberOf1SInTheFirstNDigitsInBinary {
+public class SwordsmanOfferII003 {
 	class Solution {
 		public int[] countBits(int n) {
 			if (n == 0) {
