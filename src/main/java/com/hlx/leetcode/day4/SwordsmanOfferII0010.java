@@ -17,24 +17,21 @@ public class SwordsmanOfferII0010 {
 	class Solution {
 		public int subarraySum(int[] nums, int k) {
 			int res = 0;
-			int[] prefixSum = new int[nums.length];
-			prefixSum[0] = 0;
+			int sum = 0;
 			Map<Integer, Integer> sums = new HashMap<>(nums.length);
 			for (int i = 0; i < nums.length; i++) {
-				if (0 == i) {
-					prefixSum[0] = nums[0];
-				} else {
-					prefixSum[i] = prefixSum[0] + nums[i];
-				}
-				if (prefixSum[i] == k) {
+				sum += nums[i];
+				// 查找前缀和中是否存在一个 target, 使得 sum - target = k
+				if (sum == k) {
 					++res;
 				}
-				int target = prefixSum[i] - k;
+				int target = sum - k;
 				Integer count = sums.get(target);
 				if (count != null) {
 					res += count;
 				}
-				sums.merge(prefixSum[i], 1, Integer::sum);
+				// 增加前缀和为 sum 的个数
+				sums.merge(sum, 1, Integer::sum);
 			}
 			return res;
 		}
