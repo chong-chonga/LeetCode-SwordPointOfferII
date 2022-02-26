@@ -1,4 +1,5 @@
-# LeetCode-剑指offer2刷题计划
+# LeetCode-剑指 Offer 专项突击版刷题笔记
+# 目录
 ## 第一天
 
 ### [剑指 Offer II 001. 整数除法](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day1/%E5%89%91%E6%8C%87%20Offer%20II%20001.%20%E6%95%B4%E6%95%B0%E9%99%A4%E6%B3%95.md)
@@ -18,10 +19,3 @@
 ### [剑指 Offer II 009. 乘积小于 K 的子数组.md](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day3/%E5%89%91%E6%8C%87%20Offer%20II%20009.%20%E4%B9%98%E7%A7%AF%E5%B0%8F%E4%BA%8E%20K%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md)
 
 
-
-## 更多
-
-## 更多
-[我的力扣主页](https://leetcode-cn.com/u/you-yi-mu-bi/)
-
-[Github仓库](https://github.com/chong-chonga/LeetCode-SwordPointOfferII)
