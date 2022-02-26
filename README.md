@@ -18,4 +18,7 @@
 
 ### [剑指 Offer II 009. 乘积小于 K 的子数组.md](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day3/%E5%89%91%E6%8C%87%20Offer%20II%20009.%20%E4%B9%98%E7%A7%AF%E5%B0%8F%E4%BA%8E%20K%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md)
 
+## 第四天
+
+### [剑指 Offer II 010. 和为 k 的子数组](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day4/%E5%89%91%E6%8C%87%20Offer%20II%20010.%20%E5%92%8C%E4%B8%BA%20k%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md)
 
