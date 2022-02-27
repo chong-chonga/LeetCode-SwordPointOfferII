@@ -23,18 +23,11 @@ public class SwordsmanOfferII0014 {
 			// s2的某个子串有 s1 相同类型的字符, 且每种字符个数相同
 			int[] charsMap = new int[26];
 			char[] chars1 = s1.toCharArray();
-			Arrays.sort(chars1);
-			int count = 1;
 			int end = chars1.length - 1;
 
 			// 计算 s1 每种字符的个数
-			for (int i = 0; i < chars1.length; ++i) {
-				if (i < end && chars1[i + 1] == chars1[i]) {
-					++count;
-					continue;
-				}
-				charsMap[chars1[i] - 'a'] = count;
-				count = 1;
+			for (char c : chars1) {
+				++charsMap[c-'a'];
 			}
 			// 使用双指针表示 s2 子串的左右边界
 			int left = 0;
