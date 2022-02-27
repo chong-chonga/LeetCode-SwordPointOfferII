@@ -1,7 +1,5 @@
 package com.hlx.leetcode.day5;
 
-import java.util.Arrays;
-
 /**
  * @author Huang Lexin
  * @date 2022年02月27日 10:06
