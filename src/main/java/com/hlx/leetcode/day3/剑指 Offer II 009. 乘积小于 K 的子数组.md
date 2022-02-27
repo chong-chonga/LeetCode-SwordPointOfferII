@@ -109,7 +109,7 @@
 					++right;
 					left = right;
 				} else {
-					product /= nums[left];
+					product /= nums[left++];
 				}
 			}
 			return result;

@@ -8,22 +8,27 @@ public class SwordsmanOfferII009 {
 	static class Solution {
 		public int numSubarrayProductLessThanK(int[] nums, int k) {
 			int result = 0;
+			int product = 1;
 			int left = 0;
 			int right = 0;
-			int product = 1;
-
 			while (right < nums.length) {
+				// 如果乘积满足条件, ++res
 				if (product * nums[right] < k) {
 					product *= nums[right];
 					result += (right - left + 1);
 					++right;
-				} else if (left == right) {
+				}
+				else if (left == right) {
+					// 乘积 >= k, 且边界重合, 说明 nums[right] >= k, 因此左右指针同时右移
 					product = 1;
 					++right;
 					left = right;
-				} else {
-					product /= nums[left];
 				}
+				else {
+					// 乘积 >= k, 则简单的移动左边界, 降低 product 乘积
+					product /= nums[left++];
+				}
+
 			}
 			return result;
 
