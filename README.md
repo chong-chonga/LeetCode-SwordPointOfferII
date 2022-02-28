@@ -1,4 +1,5 @@
 # LeetCode-剑指 Offer 专项突击版刷题笔记
+春招前刷题, 刷 **剑指 Offer 专项突击版** 时, 遇到较为常见题时, 编写的题解。方便查漏补缺。
 # 目录
 ## 第一天
 
@@ -22,3 +23,8 @@
 
 ### [剑指 Offer II 010. 和为 k 的子数组](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day4/%E5%89%91%E6%8C%87%20Offer%20II%20010.%20%E5%92%8C%E4%B8%BA%20k%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md)
 
+## 第五天
+
+### [剑指 Offer II 014. 字符串中的变位词.md](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day5/%E5%89%91%E6%8C%87%20Offer%20II%20014.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%8F%98%E4%BD%8D%E8%AF%8D.md)
+
+### [剑指 Offer II 015. 字符串中的所有变位词.md](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day5/%E5%89%91%E6%8C%87%20Offer%20II%20015.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E5%8F%98%E4%BD%8D%E8%AF%8D.md)
