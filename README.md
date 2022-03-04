@@ -28,3 +28,19 @@
 ### [剑指 Offer II 014. 字符串中的变位词.md](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day5/%E5%89%91%E6%8C%87%20Offer%20II%20014.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%8F%98%E4%BD%8D%E8%AF%8D.md)
 
 ### [剑指 Offer II 015. 字符串中的所有变位词.md](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day5/%E5%89%91%E6%8C%87%20Offer%20II%20015.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E5%8F%98%E4%BD%8D%E8%AF%8D.md)
+
+## 第七天
+
+### [剑指 Offer II 022. 链表中环的入口节点](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day6/%E5%89%91%E6%8C%87%20Offer%20II%20017.%20%E5%90%AB%E6%9C%89%E6%89%80%E6%9C%89%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E7%9F%AD%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
+
+
+
+## 第八天
+
+这几题没有编写题解。
+
+
+
+## 第九天
+
+### [剑指 Offer II 029. 排序的循环链表](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day9/%E5%89%91%E6%8C%87%20Offer%20II%20029.%20%E6%8E%92%E5%BA%8F%E7%9A%84%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8.md)
