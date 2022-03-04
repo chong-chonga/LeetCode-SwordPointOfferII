@@ -2,8 +2,6 @@ package com.hlx.leetcode.day7;
 
 import com.hlx.leetcode.structure.ListNode;
 
-import java.lang.reflect.WildcardType;
-
 /**
  * @author Huang Lexin
  * @date 2022年03月02日 8:02
