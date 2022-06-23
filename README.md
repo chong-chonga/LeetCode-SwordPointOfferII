@@ -44,5 +44,3 @@
 ## 第九天
 
 ### [剑指 Offer II 029. 排序的循环链表](https://github.com/chong-chonga/LeetCode-SwordPointOfferII/blob/master/src/main/java/com/hlx/leetcode/day9/%E5%89%91%E6%8C%87%20Offer%20II%20029.%20%E6%8E%92%E5%BA%8F%E7%9A%84%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8.md)
-
-## 目前鸽了。。。在准备面经
